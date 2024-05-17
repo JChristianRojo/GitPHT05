@@ -1,0 +1,53 @@
+/* Universal Selector */
+* {
+    color: green;
+}
+
+/* Element Selector */
+p {
+    color: red;
+}
+
+/* Class Selector */
+.paragraph1 {
+    color: aquamarine;
+}
+
+/* ID Selector */
+#paragraph2{
+    color: brown;
+}
+
+/* Element selector */
+h3[href] {
+    color: pink;
+}
+
+/* ALL elements with an attribute */
+[href] {
+    background-color: bisque;
+}
+
+/* ALL elements with a specific attribute */
+[href="https://www.example.com"] {
+    color: tomato;
+    background-color: aliceblue;
+}
+
+/* Grouping Selector */
+h4, h5, h6 {
+    font-size: 20px;
+    color: purple;
+    background-color: lightblue;
+}
+
+/* Pseudo-Classes Selector */
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.pseudo:visited{
+    background-color: brown;
+}
